@@ -1,0 +1,96 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+.cards {
+ 	   display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+	background-color: #DCDCDC;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+    margin: 20px 0px;
+    flex-basis: 200px;
+
+
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.btn-blue a {
+
+    color: #fff !important;
+    word-spacing: 0.25em;
+   font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   border: none;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    margin-left: 700px;
+    text-decoration: none;
+    background: #FB9150;  
+     padding: 6px 12px 5px;
+    font-size: 13px;
+    text-shadow: none;
+}
+
+.banner {
+  /* 1. Set a background image */
+  background-image: url('images/maldives_tropical_underwater_hotel_82210_3840x2400.jpg');   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+
+	padding-top: 150px;
+	padding-bottom: 150px
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%);
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+  opacity: 0.7;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 0.8;
+	text-align: center;
+}
+
+
+
